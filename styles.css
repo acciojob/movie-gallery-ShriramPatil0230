@@ -1,2 +1,34 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px
+	padding:0px;
+}
+.container-fluid{
+	margin:10px;
+	border:1px solid black;
+}
+.row{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	width:100%;
+	margin-top:2px;
+}
+
+.col-sm-1{
+width:8.1%	
+}
+.col-sm-2{
+	width:16.1%;
+}
+.col-sm-4{
+	width:33.1%;
+}
+.col-sm-12{
+	width:100%
+}
+img{
+	width:100%;
+	height:100%;
+}
